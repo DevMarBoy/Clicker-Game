@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=VT323&display=swap');
+
+*
+{
+    background-color: black;
+    font-family: 'Silkscreen';
+    text-align: center;
+}
+
+#button1
+{
+    background-color: transparent;
+    height: 750px;
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-size: 400px;
+    color: white;
+    border-color: transparent;
+
+}
+
+#button2
+{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-size: 20px;
+    border-color: white;
+    color: white;
+    
+}
+
+#winner
+{
+    color: white;
+    font-size: 20px;
+}
