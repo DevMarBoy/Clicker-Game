@@ -17,7 +17,7 @@ for(let i = 0; i <= 10; i++)
         counter += upgradedCounter;
         document.getElementById("button1").innerHTML = counter;
 
-        if(counter == winCondition)
+        if(counter <= winCondition)
         {
             document.getElementById("winner").innerHTML = `You Won Totall Clicks ${winCondition}, Refresh To Restart`;
         }
